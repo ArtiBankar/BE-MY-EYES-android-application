@@ -1,7 +1,8 @@
 # 👁️ Be My Eyes – Android App for the Visually Impaired
 
 [![Android](https://img.shields.io/badge/platform-android-green.svg)](https://developer.android.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: Custom (Copyright Registered)](https://img.shields.io/badge/license-registered--copyright-blue)](https://copyright.gov.in/)
+[![Built With Kotlin](https://img.shields.io/badge/built%20with-Kotlin-orange)](https://kotlinlang.org/)
 
 > A real-time object detection and voice-assistance Android application developed to empower blind and visually impaired individuals.
 
@@ -40,4 +41,3 @@ graph TD;
     VoiceCommandHandler-->Call
     VoiceCommandHandler-->DiseasePrediction
     YOLOv3TinyAlgorithm-->RealTimeObjectDetection
-
