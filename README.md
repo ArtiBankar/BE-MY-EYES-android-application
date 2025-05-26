@@ -41,3 +41,90 @@ graph TD;
     VoiceCommandHandler-->Call
     VoiceCommandHandler-->DiseasePrediction
     YOLOv3TinyAlgorithm-->RealTimeObjectDetection
+
+🧪 Tech Stack
+
+| Component       | Technology                           |
+| --------------- | ------------------------------------ |
+| IDE             | Android Studio                       |
+| Frontend        | XML                                  |
+| Backend         | Kotlin                               |
+| AI Framework    | YOLOv3-tiny                          |
+| Voice Interface | Text-to-Speech / Speech-to-Text APIs |
+
+🛠️ Installation
+1. Clone the repository:
+git clone https://github.com/bankar/be-my-eyes-app.git
+cd be-my-eyes-app
+2. Open in Android Studio.
+
+3. Connect your Android device or emulator.
+
+4. Build and run the app.
+
+🧠 How It Works
+The app launches the camera automatically on startup.
+
+Press the Up button to start object detection (YOLOv3-tiny).
+
+Press the Down button to activate voice commands.
+
+Press the Back button to stop all services.
+
+The app outputs audio feedback based on voice commands and detection.
+
+📂 Class Structure
+BeMyEyesApplication
+├── Camera
+│   ├── startCaptureVideo()
+│   └── stopCaptureVideo()
+├── YOLOv3TinyAlgorithm
+│   ├── startDetection()
+│   ├── stopDetection()
+│   └── processFrame()
+├── DiseasePredictionSystem
+│   └── predictDisease()
+└── VoiceCommandHandler
+    ├── checkBatteryStatus()
+    ├── showDateTime()
+    ├── sendSms()
+    ├── makeCall()
+    └── convertVoiceToText()
+📚 Research & Publications
+📄 "Be My Eyes App for Blind People" – Literary/Dramatic Work
+
+Registered under Copyright Office, India
+
+Registration Number: L-144557/2024
+
+Diary Number: 2252/2024-CO/L
+
+Application Date: 19/01/2024
+
+Author & Owner: Dr. Pravin Latane
+
+This work is unpublished and protected under Indian Copyright Law. All rights reserved to the author and co-creators. Commercial reproduction, redistribution, or derivative creation is prohibited without explicit permission.
+
+👩‍💻 Contributors
+🎓 Ms. Bankar Arti Kalyan – BEIT52
+
+🎓 Mr. Ahire Suyog Suresh – BEIT51
+
+🎓 Ms. Wadekar Niyati Pandharinath – BEIT27
+
+🎓 Ms. Ghodkhinde Monika Atmaram – BEIT44
+
+👨‍🏫 Guided by: Dr. P. C. Latane
+Department of Information Technology, Sinhgad Institute of Technology, Lonavala
+
+📄 License
+This project is protected by a registered copyright under the Copyright Act of India (1957).
+
+🙌 Acknowledgments
+Special thanks to:
+
+YOLOv3 and open-source contributors
+
+Android accessibility community
+
+All research paper authors cited in our literature survey
