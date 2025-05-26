@@ -154,6 +154,3 @@ Special thanks to:
 
 ---
 
-## 💬 Feedback & Contact
-
-We welcome suggestions and collaborations. Please [open an issue](https://github.com/artibankar/be-my-eyes-app/issues) or email the project guide for inquiries.
